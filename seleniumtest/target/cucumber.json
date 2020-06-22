@@ -1,0 +1,195 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-22T06:03:02.133Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1436094031,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Login into genoapay successfully and verify landing page appears as expected",
+        "description": "",
+        "id": "genoapay-customer-portal-login-and-landing;login-into-genoapay-successfully-and-verify-landing-page-appears-as-expected",
+        "after": [
+          {
+            "result": {
+              "duration": 88833764,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.runtime.CucumberException: class nz.test.genoapay.stepdefs.CustomerLoginStepDefs doesn\u0027t have an empty constructor. If you need DI, put cucumber-picocontainer on the classpath\n\tat cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:44)\n\tat cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:32)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\nCaused by: java.lang.NoSuchMethodException: nz.test.genoapay.stepdefs.CustomerLoginStepDefs.\u003cinit\u003e()\n\tat java.base/java.lang.Class.getConstructor0(Class.java:3350)\n\tat java.base/java.lang.Class.getConstructor(Class.java:2152)\n\tat cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:39)\n\t... 38 more\n",
+              "duration": 3273107,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I am on Genoapay application login section",
+            "match": {
+              "location": "CustomerLoginStepDefs.i_am_on_Genoapay_application_login_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1403647,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Login with GENO_PAY_USER and GENOPAY_USER_PASSWORD",
+            "match": {
+              "location": "CustomerLoginStepDefs.login_with_GENO_PAY_USER_and_GENOPAY_USER_PASSWORD()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1067705,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "click on sign in button",
+            "match": {
+              "location": "CustomerLoginStepDefs.click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 631027,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "default tab names are displayed correctly on Landing Page",
+            "match": {
+              "location": "CustomerLoginStepDefs.default_tab_names_are_displayed_correctly_on_Landing_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@now"
+          }
+        ]
+      }
+    ],
+    "name": "Genoapay customer portal login and landing",
+    "description": "  As a Genopay User\n  I want to access the Genopay Customer Portal using my login credentials\n  So that I can view the Available credit, List of My Purchases and Purchase Details",
+    "id": "genoapay-customer-portal-login-and-landing",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/nz/test/genoapay/features/customer_login.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-22T06:03:03.741Z",
+        "before": [
+          {
+            "result": {
+              "duration": 922205705,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login into genoapay successfully and verify landing page appears as expected",
+        "description": "",
+        "id": "genoapay-customer-portal-login-and-landing;login-into-genoapay-successfully-and-verify-landing-page-appears-as-expected;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 81584008,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.runtime.CucumberException: class nz.test.genoapay.stepdefs.CustomerLoginStepDefs doesn\u0027t have an empty constructor. If you need DI, put cucumber-picocontainer on the classpath\n\tat cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:44)\n\tat cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:32)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\nCaused by: java.lang.NoSuchMethodException: nz.test.genoapay.stepdefs.CustomerLoginStepDefs.\u003cinit\u003e()\n\tat java.base/java.lang.Class.getConstructor0(Class.java:3350)\n\tat java.base/java.lang.Class.getConstructor(Class.java:2152)\n\tat cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:39)\n\t... 38 more\n",
+              "duration": 784625,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I am on Genoapay application login section",
+            "match": {
+              "location": "CustomerLoginStepDefs.i_am_on_Genoapay_application_login_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Login with \u003cGENO_PAY_USER\u003e and New Customer Password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 301595,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "click on sign in button",
+            "match": {
+              "location": "CustomerLoginStepDefs.click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "My purchases,My profile,Help,Signout,My purchases, No purchase details are displayed correctly on Landing Page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Genoapay customer portal login and landing",
+    "description": "  As a Genopay User\n  I want to access the Genopay Customer Portal using my login credentials\n  So that I can view the Available credit, List of My Purchases and Purchase Details",
+    "id": "genoapay-customer-portal-login-and-landing",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/nz/test/genoapay/features/login.feature",
+    "tags": []
+  }
+]
